@@ -1,0 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#input {
+  width: 400px;
+  height: 120px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  background: #8acaea
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background: #406777;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #8f71c6;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+
+section {
+  margin: 20px 10px;
+  padding: 20px;
+  background: linear-gradient(to bottom, #dde4ee, #e3e1f4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  /* Set image height */
+  margin: 20px;
+  /* Add some margin */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  position: relative;
+}
+
+header img {
+  width: 100%;
+  height: 20%;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%) text-align: center;
+}
+
+.header-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header-text p {
+  font-size: 18px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+input:hover {
+  border-color: #aaa;
+}
+
+input:focus {
+  border-color: #666;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.chat-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+#conversation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-message {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.bot-message {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bot-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #4799e6;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bot-bubble {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+
+}
+
+.box {
+  flex: 1;
+  margin: 15px;
+  padding: 40px;
+  border: 2px solid #ccc;
+}
+
+
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  width: 90vw;
+  max-width: 100%;
+  
+}
