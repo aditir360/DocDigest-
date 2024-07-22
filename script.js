@@ -1,4 +1,4 @@
-var myGame = new WizardOrpheus('', `You're an expert in the field  text analysis. You're job is to summarize text from documents and then summarize it. Before summarizing (if the user gives you something to summarize), ask user if they want the text summarization to be translated into another language. If yes, ask user for the language. If no, skip this step. Remove any \n that you might say.`)
+var myGame = new WizardOrpheus('', `You're an expert in the field  text analysis. You're job is to summarize text from documents and shorten it to only include important info. Before summarizing (if the user gives you something to summarize), ask user if they want the text summarization to be translated into another language. If yes, ask user for the language. If no, skip this step. Remove any \n that you might say.`)
 
 myGame.createUserAction({
   name: 'message',
